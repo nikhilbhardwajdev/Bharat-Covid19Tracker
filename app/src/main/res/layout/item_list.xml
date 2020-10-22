@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/stateTv"
+        android:textSize="14dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#010004"/>
+    <TextView
+        android:id="@+id/confirmedTv"
+        android:textSize="11.5dp"
+        android:layout_width="0dp"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#ED0629"/>
+    <TextView
+        android:id="@+id/activeTv"
+        android:textAlignment="textEnd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="11.5dp"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#1445DC"/>
+    <TextView
+        android:id="@+id/recoveredTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_weight="1"
+        android:textSize="11.5dp"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+    <TextView
+        android:id="@+id/deathTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_weight="1"
+        android:textSize="11.5dp"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#F47750"/>
+
+
+</LinearLayout>

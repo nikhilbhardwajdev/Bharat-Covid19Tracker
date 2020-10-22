@@ -1,0 +1,2 @@
+rootProject.name='Bharat-Covid Tracker'
+include ':app'
